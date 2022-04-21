@@ -25,8 +25,8 @@
             return $this->corPena;
         }
 
-        public function setCorPena($cp){
-            $this->corPena = $cp;
+        public function setCorPena($cpe){
+            $this->corPena = $cpe;
         }
     }
 

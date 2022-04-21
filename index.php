@@ -9,21 +9,28 @@
     require_once 'Cachorro.php';
     require_once 'Cobra.php';
     require_once 'Tartaruga.php';
-    require_once 'Golfish.php';
+    require_once 'Goldfish.php';
     require_once 'Arara.php';
 
     $mamifero = new Mamifero();
     $mamifero->setPeso(33.5);
-    $mamifero->locomover();
+    //$mamifero->locomover();
 
     $reptil = new Reptil();
-    $reptil->locomover();
+    //$reptil->locomover();
 
     $peixe = new Peixe();
-    $peixe->locomover();
+    //$peixe->locomover();
 
     $ave = new Ave();
-    $ave->locomover();
+    //$ave->locomover();
+    
+    $canguru = new Canguru();
+    $cachorro = new Cachorro();
+    $tartaruga = new Tartaruga();
 
+    $mamifero->emitirSom();
+    $cachorro->emitirSom();
+    $canguru->emitirSom();
 
 ?>
