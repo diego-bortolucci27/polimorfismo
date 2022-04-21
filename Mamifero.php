@@ -2,7 +2,7 @@
 
     require_once 'Animal.php';
 
-    class Mamififero extends Animal{
+    class Mamifero extends Animal{
         private $corPelo;
 
         public function alimentar(){

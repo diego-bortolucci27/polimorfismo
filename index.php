@@ -5,7 +5,7 @@
     require_once 'Peixe.php';
     require_once 'Ave.php';
 
-    $mamifero = new Mamififero();
+    $mamifero = new Mamifero();
     $mamifero->setPeso(33.5);
     $mamifero->locomover();
 
