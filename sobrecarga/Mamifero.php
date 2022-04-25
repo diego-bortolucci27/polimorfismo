@@ -8,7 +8,7 @@
 
         public function emitirSom()
         {
-            
+            echo "<p> Som de Mamífero </p>";
         }
     }
 
