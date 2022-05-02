@@ -4,7 +4,10 @@
 
     class Cachorro extends Lobo
     {
-        
+        function emitirSom()
+        {
+            echo "<p> AU! AU! AU! </p>";
+        }
     }
 
 ?>
